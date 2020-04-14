@@ -1,7 +1,5 @@
 {
-    "components": {
-        "button": {
-            "icon": { "value": "{icon.color.value}" }
-        }
+    "button": {
+        "icon": { "value": "{icon.color.value}" }
     }
 }
