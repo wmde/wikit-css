@@ -1,0 +1,119 @@
+#Global tokens
+
+#Fonts
+font-family:
+  sans: &font-family-sans "-apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif"
+    fallback: &font-family-sans-fallback "sans-serif"
+  serif: &font-family-serif "'Linux Libertine', 'Georgia', 'Times', serif"
+    fallback: &font-family-serif-fallback "serif"
+  monospace: &font-family-monospace "'Menlo', 'Consolas', 'Liberation Mono', 'Courier New', monospace"
+    fallback: &font-family-monospace-fallback "monospace"
+font-weight:
+  regular: &font-weight-regular "400"
+  bold: &font-family-bold "600"
+font-line-height:
+  small: &font-line-height-small "1.25"
+  medium: &font-line-height-medium "1.5"
+  large: &font-line-height-large "1.6"
+
+#Colors
+color:
+  base:
+    100: &color-base-100 "#fff"
+    90: &color-base-90 "#f8f9fa" 
+    80: &color-base-80 "#eaecf0" 
+    70: &color-base-70 "#c8ccd1"
+    50: &color-base-50 "#a2a9b1"
+    30: &color-base-30 "#72777d"
+    20: &color-base-20 "#54595d"
+    10: &color-base-10 "#202122"
+    0: &color-base-0 "#000"
+  accent:
+    90: &color-accent-90 "#eaf3ff"
+    50: &color-accent-50 "#36c"
+    30: &color-accent-30 "#2a4b8d"
+  interaction: #interaction colors are currently not captured by global WMF palette (request submitted by WMDE)
+    primary-hover: &color-interaction-primary-hover "#447ff5"
+    destructive-active: &color-interaction-destructive-active "#D11D13"
+  utility:
+    red:
+      90: &color-utility-red-90 "#fee7e6"
+      50: &color-utility-red-50 "#d33"
+      30: &color-utility-red-30 "#b32424"
+    green:
+      90: &color-utility-green-90 "#d5fdf4"
+      50: &color-utility-green-50 "#00af89"
+      30: &color-utility-green-30 "#14866d"
+    yellow:
+      90: &color-utility-yellow-90 "#fef6e7"
+      50: &color-utility-yellow-50 "#fc3"
+      30: &color-utility-yellow-30 "#ac6600"
+opacity: #unclear how to express opacity based on wm-ui-base.less
+  base: &opacity-base "1"
+    disabled: &opacity-base-disabled "0.51"
+  100: &opacity-100 "1"
+  90: &opacity-90 "0.9"
+  80: &opacity-80 "0.8"
+  70: &opacity-70 "0.7"
+  60: &opacity-60 "0.6"
+  50: &opacity-50 "0.5"
+  40: &opacity-40 "0.4"
+  30: &opacity-30 "0.3"
+  20: &opacity-20 "0.2"
+  10: &opacity-10 "0.1"
+
+#Dimensions
+dimension:
+  static:      
+    size: #Completely unsure about the naming
+      8: &dimension-static-size-8 "1px"
+      25: &dimension-static-size-25 "2px"
+      50: &dimension-static-size-50 "4px"
+      100: &dimension-static-size-100 "8px"
+      150: &dimension-static-size-150 "12px"
+      165: &dimension-static-size-165 "13px"
+      175: &dimension-static-size-175 "14px"
+      200: &dimension-static-size-200 "16px"
+      225: &dimension-static-size-225 "18px"
+      250: &dimension-static-size-250 "20px"
+      300: &dimension-static-size-300 "24px"
+      400: &dimension-static-size-400 "32px"
+      500: &dimension-static-size-500 "40px"
+      600: &dimension-static-size-600 "48px"
+      700: &dimension-static-size-600 "56px"
+  font-size:
+    xsmall: &dimension-static-font-size-xsmall "13px"
+    small: &dimension-static-font-size-small "14px"
+    base: &dimension-static-font-size-base "16px"
+    large: &dimension-static-font-size-large "18px"
+    xlarge: &dimension-static-font-size-xlarge "20px"
+    xxlarge: &dimension-static-font-size-xxlarge "24px"
+    xxxlarge: &dimension-static-font-size-xxxlarge "32px"
+  area: #Pre-defined sizes for component with fixed widths 
+    size:
+      xsmall: &dimension-area-size-xsmall "64px"
+      small: &dimension-area-size-small "128px"
+      medium: &dimension-area-size-medium "256px"
+      large:  &dimension-area-size-large "384px"
+      xlarge: &dimension-area-size-xlarge "512px"
+
+#Dimensions
+duration:
+  fast: &duration-fast "100ms"
+  base: &duration-base "200ms"
+  slower: &duration-slower "300ms"
+  slowest: &duration-slowest "400ms"
+
+#Composite tokens
+
+icon-color:
+  black: &icon-color-black "*color-base-0"
+  dark-grey: &icon-color-dark-grey" *color-base-10"
+  disabled: &icon-color-disabled "*color-base-30"
+  error: &icon-color-error "*color-utility-red-50"
+  warning: &icon-color-warning "*color-utility-yellow-50"
+  success: &icon-color-success "*color-utility-green-30"
+text-color:
+  base: &text-color-base "*"
+
+#Component tokens
