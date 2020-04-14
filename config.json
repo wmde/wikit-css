@@ -10,7 +10,7 @@
       }]
     },
     "css": {
-      "transformGroup": "scss",
+      "transformGroup": "css",
       "buildPath": "build/css/",
       "files": [{
         "destination": "variables.css",
