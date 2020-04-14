@@ -15,7 +15,7 @@
         }
     },
     
-	"color": {
+    "color": {
         "base": {
             "100": {"value": "#fff"},
             "90": {"value": "#f8f9fa"},
