@@ -1,60 +1,60 @@
 {
     "text": {
         "color": {
-            "base": {value: "{color.base.10.value}"},
-            "emphasized": {value: "{color.base.0.value}"},
-            "secondary": {value: "{color.base.30.value}"}
+            "base": {"value": "{color.base.10.value}"},
+            "emphasized": {"value": "{color.base.0.value}"},
+            "secondary": {"value": "{color.base.30.value}"}
         }
     },
     
     "background":{
         "color": {
             "unframed":{
-                "base": {value: "{color.base.100.value}"}, 
-                "hover": {value: "{color.base.80.value}"}, 
-                "focus": {value: "{color.base.100.value}"},
-                "disabled": {value: "{color.base.80.value}"}
+                "base": {"value": "{color.base.100.value}"}, 
+                "hover": {"value": "{color.base.80.value}"}, 
+                "focus": {"value": "{color.base.100.value}"},
+                "disabled": {"value": "{color.base.80.value}"}
             },
               "framed":{
-                "base": {value: "{color.base.90.value}"},
-                "hover": {value: "{color.base.100.value}"}, 
-                "active": {value: "{color.base.30.value}"}, 
-                "disabled": {value: "{color.base.70.value}"}, 
+                "base": {"value:" "{color.base.90.value}"},
+                "hover": {"value": "{color.base.100.value}"}, 
+                "active": {"value": "{color.base.30.value}"}, 
+                "disabled": {"value": "{color.base.70.value}"}, 
                 }
             }
         },
      
     "border":{
         "color": {
-            "base": {value: "{color.base.50.value}"}, 
-            "hover": {value: "{color.base.30.value}"}, 
-            "active": {value: "{color.base.30.value}"}, 
-            "focus": {value: "{color.base.50.value}"},
-            "disabled": {value: "{color.base.70.value}"},
+            "base": {"value": "{color.base.50.value}"}, 
+            "hover": {"value": "{color.base.30.value}"}, 
+            "active": {"value": "{color.base.30.value}"}, 
+            "focus": {"value": "{color.base.50.value}"},
+            "disabled": {"value": "{color.base.70.value}"},
         },
         "radius": {
-            "none": {value: "{dimension.static.size.0.value}"},
-            "round": {value: "{dimension.static.size.25.value}"},
-            "rounder": {value: "{dimension.static.size.50.value}"}
+            "none": {"value": "{dimension.static.size.0.value}"},
+            "round": {"value": "{dimension.static.size.25.value}"},
+            "rounder": {"value": "{dimension.static.size.50.value}"}
         },
         "size": {
-            "thin": {value: "{dimension.static.size.10.value}"},
-            "thick": {value: "{dimension.static.size.25.value}"}
+            "thin": {"value": "{dimension.static.size.10.value}"},
+            "thick": {"value": "{dimension.static.size.25.value}"}
         }
     },
     "button":{
         "text": {
-            "line-height": {value: "{dimension.static.size.250.value}"},
-            "font-size": {value: "{dimension.font.size.medium.value}"},
-            "font-weight": {value: "{font.weight.bold.value}"},
+            "line-height": {"value": "{dimension.static.size.250.value}"},
+            "font-size": {"value": "{dimension.font.size.medium.value}"},
+            "font-weight": {"value": "{font.weight.bold.value}"},
             "color": {
-                "positive": {value: "{color.base.10.value}"},
-                "reversed": {value: "{color.base.100.value}"},
+                "positive": {"value": "{color.base.10.value}"},
+                "reversed": {"value": "{color.base.100.value}"},
             }
         },
         "height":{
-            "medium": {value: "{dimension.static.size.400.value}"},
-            "large": {value: "{dimension.static.size.500.value}"}
+            "medium": {"value": "{dimension.static.size.400.value}"},
+            "large": {"value": "{dimension.static.size.500.value}"}
         }
     }
 }
