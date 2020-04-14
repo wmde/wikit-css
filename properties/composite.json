@@ -1,0 +1,7 @@
+{
+    "icon": {
+        "color": {
+            "value": "{color.base.100.value}"
+        }
+    }
+}

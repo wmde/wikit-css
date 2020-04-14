@@ -1,0 +1,36 @@
+{
+  "name": "design-system-components",
+  "version": "0.0.1",
+  "description": "This repository holds documentation, demo story book, base components library and Design Tokens for the Wikibase Design System. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmde/design-system-components.git"
+  },
+  "keywords": [
+    "Design",
+    "System",
+    "WMDE",
+    "Wikidata",
+    "Wikibase",
+    "Component",
+    "Library"
+  ],
+  "author": "Itamar Givon <itamar.givon@wikimedia.de>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/wmde/design-system-components/issues"
+  },
+  "homepage": "https://github.com/wmde/design-system-components#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/html": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "style-dictionary": "^2.8.3"
+  }
+}
