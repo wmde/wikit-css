@@ -37,7 +37,7 @@
             "round": {"value": "{dimension.static.size.25.value}"},
             "rounder": {"value": "{dimension.static.size.50.value}"}
         },
-        "size": {
+        "width": {
             "thin": {"value": "{dimension.static.size.10.value}"},
             "thick": {"value": "{dimension.static.size.25.value}"}
         }
