@@ -46,7 +46,7 @@
     "button":{
     
         "text": {
-            "line-height": {"value": "{line-height.small.value}"},
+            "line-height": {"value": "{font.line-height.small.value}"},
             "font-size": {"value": "{dimension.font.size.medium.value}"},
             "font-weight": {"value": "{font.weight.bold.value}"},
             "padding":{
