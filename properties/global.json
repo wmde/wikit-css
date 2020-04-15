@@ -14,7 +14,7 @@
             "large": {"value": "1.6"}
         }
     },
-    
+
     "color": {
         "base": {
             "100": {"value": "#fff"},
@@ -40,7 +40,7 @@
         }
     },
 
-    "dimension": {
+      "dimension": {
         "font":{
                 "size": {
                     "xsmall": {"value": "13px"},
@@ -53,7 +53,7 @@
                 }
            },
              
-            "static": {
+         "static": {
                 "size": {
                     "0": {"value": "0px"},
                     "10": {"value": "1px"},
