@@ -3,18 +3,18 @@
         "primary": {
             "size":{
                 "medium":{
-                    "height": {"value": "{dimension.static.size.400}"},
+                    "height": {"value": "{button.height.medium.value}"},
                     "text-padding":{
-                        "x": {"value": "{dimension.static.size.150}"},
-                        "y": {"value": "{dimension.static.size.65}"}
+                        "x": {"value": "{button.text.padding.medium.x.value}"},
+                        "y": {"value": "{button.text.padding.medium.y.value}"}
                           }
                         },
                         
                 "large": {
-                    "height": {"value": "{dimension.static.size.500}"},
+                    "height": {"value": "{button.height.large.value}"},
                     "text-padding":{
-                        "x": {"value": "{dimension.static.size.200}"},
-                        "y": {"value": "{dimension.static.size.110}"}
+                        "x": {"value": "{button.text.padding.large.x.value}"},
+                        "y": {"value": "{button.text.padding.large.y.value}"}
                           }
                       }
                   },
