@@ -1,7 +1,7 @@
 {
    "font": {
         "family": {
-            "sans": {"value":"-apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif"},
+            "sans": {"value":"-apple-system"},
               
         "weight":{
             "regular":{"value": "400"},
