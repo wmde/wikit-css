@@ -1,7 +1,9 @@
 {
    "font": {
         "family": {
-            "sans": {"value":"-apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;"}
+           "sans": {"value":"-apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;"},
+           "serif": {"value":"'Linux Libertine', 'Georgia', 'Times', serif;"},
+           "monospace":{"value":"'Menlo', 'Consolas', 'Liberation Mono', 'Courier New', monospace;"}
         },     
         "weight":{
             "regular":{"value": "400"},
@@ -32,6 +34,24 @@
             "90": {"value": "#eaf3ff"},
             "50": {"value": "#36c"},
             "30": {"value": "#2a4b8d"}
+        },
+       
+        "utility": {
+            "red": {
+               "90": {"value": "#fee7e6"},
+               "50": {"value": "#d33"},
+               "30": {"value": "#b32424"}
+            },
+            "green": {
+               "90": {"value": "#d5fdf4"},
+               "50": {"value": "#00af89"},
+               "30": {"value": "#14866d"}
+            },
+            "yellow": {
+               "90": {"value": "#fef6e7"},
+               "50": {"value": "#fc3"},
+               "30": {"value": "#ac6600"}
+            },
         },
           
         "interaction": {
