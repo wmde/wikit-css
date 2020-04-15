@@ -20,6 +20,7 @@
                   },
             
             "text":{
+                "font-family": {"value":"{font.family.sans.value}"},
                 "color": {
                     "default": {"value": "{button.text.color.reversed.value}"},
                     "disabled": {"value": "{button.text.color.reversed.value}"}
