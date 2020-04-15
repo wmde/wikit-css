@@ -3,52 +3,52 @@
         "primary": {
             "size":{
                 "medium":{
-                    "height": {"value": "{button.height.medium.value}"},
+                    "height": {"value": "{composite.button.height.medium.value}"},
                     "text-padding":{
-                        "x": {"value": "{button.text.padding.medium.x.value}"},
-                        "y": {"value": "{button.text.padding.medium.y.value}"}
+                        "x": {"value": "{composite.button.text.padding.medium.x.value}"},
+                        "y": {"value": "{composite.button.text.padding.medium.y.value}"}
                           }
                         },
                         
                 "large": {
-                    "height": {"value": "{button.height.large.value}"},
+                    "height": {"value": "{composite.button.height.large.value}"},
                     "text-padding":{
-                        "x": {"value": "{button.text.padding.large.x.value}"},
-                        "y": {"value": "{button.text.padding.large.y.value}"}
+                        "x": {"value": "{composite.button.text.padding.large.x.value}"},
+                        "y": {"value": "{composite.button.text.padding.large.y.value}"}
                           }
                       }
                   },
             
             "text":{
                 "color": {
-                    "default": {"value": "{button.text.color.reversed.value}"},
-                    "disabled": {"value": "{button.text.color.reversed.value}"}
+                    "default": {"value": "{composite.button.text.color.reversed.value}"},
+                    "disabled": {"value": "{composite.button.text.color.reversed.value}"}
                 },
-                "font-weight": {"value": "{button.text.font-weight.value}"},
-                "font-size": {"value": "{button.text.font-size.value}"},
-                "line-height": {"value": "{button.text.line-height.value}"}
+                "font-weight": {"value": "{composite.button.text.font-weight.value}"},
+                "font-size": {"value": "{composite.button.text.font-size.value}"},
+                "line-height": {"value": "{composite.button.text.line-height.value}"}
         },
             "background":{
                 "color":  {
-                    "default": {"value": "{color.accent.50.value}"},
-                    "hover": {"value": "{color.interaction.primary-hover.value}"},
-                    "active": {"value": "{color.accent.30.value}"},
-                    "focus": {"value": "{color.accent.50.value}"},
-                    "disabled": {"value": "{background.color.framed.disabled.value}"}
+                    "default": {"value": "{global.color.accent.50.value}"},
+                    "hover": {"value": "{global.color.interaction.primary-hover.value}"},
+                    "active": {"value": "{global.color.accent.30.value}"},
+                    "focus": {"value": "{global.color.accent.50.value}"},
+                    "disabled": {"value": "{composite.background.color.framed.disabled.value}"}
             }
         },
             "border":{
                 "color":  {
-                    "default": {"value": "{color.accent.50.value}"},
-                    "hover": {"value": "{color.interaction.primary-hover.value}"},
-                    "active": {"value": "{color.accent.30.value}"},
-                    "focus": {"value": "{color.accent.50.value}"},
-                    "disabled": {"value": "{background.color.framed.disabled.value}"}
+                    "default": {"value": "{global.color.accent.50.value}"},
+                    "hover": {"value": "{global.color.interaction.primary-hover.value}"},
+                    "active": {"value": "{global.color.accent.30.value}"},
+                    "focus": {"value": "{global.color.accent.50.value}"},
+                    "disabled": {"value": "{composite.background.color.framed.disabled.value}"}
                     },
-                "radius":  {"value": "{border.radius.round.value}"},
+                "radius":  {"value": "{composite.border.radius.round.value}"},
                 "width": {
-                    "default": {"value":"{border.width.thin.value}"},
-                    "increase": {"value":"{border.width.thick.value}"}
+                    "default": {"value":"{composite.border.width.thin.value}"},
+                    "increase": {"value":"{composite.border.width.thick.value}"}
                 }   
             }
         }
