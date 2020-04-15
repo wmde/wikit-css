@@ -44,7 +44,7 @@
     },
     "button":{
         "text": {
-            "line-height": {"value": "{dimension.static.size.250.value}"},
+            "line-height": {"value": "{line-height.small.value}"},
             "font-size": {"value": "{dimension.font.size.medium.value}"},
             "font-weight": {"value": "{font.weight.bold.value}"},
             "color": {
