@@ -1,5 +1,56 @@
 {
     "button": {
-        "icon": { "value": "{icon.color.value}" }
+        "primary": {
+            "size":{
+                "medium":{
+                    "height": {"value": "{dimension.static.size.400}"},
+                    "text-padding":{
+                        "x": {"value": "{dimension.static.size.150}"},
+                        "y": {"value": "{dimension.static.size.65}"}
+                          }
+                        },
+                        
+                "large": {
+                    "height": {"value": "{dimension.static.size.500}"},
+                    "text-padding":{
+                        "x": {"value": "{dimension.static.size.200}"},
+                        "y": {"value": "{dimension.static.size.110}"}
+                          }
+                      }
+                  },
+            
+            "text":{
+                "color": {
+                    "default": {"value": "{button.text.color.reversed.value}"},
+                    "disabled": {"value": "{button.text.color.reversed.value}"}
+                },
+                "font-weight": {"value": "{button.text.font-weight.value}"},
+                "font-size": {"value": "{button.text.font-size.value}"},
+                "line-height": {"value": "{button.text.line-height.value}"}
+        },
+            "background":{
+                "color":  {
+                    "default": {"value": "{color.accent.50.value}"},
+                    "hover": {"value": "{color.interaction.primary-hover.value}"},
+                    "active": {"value": "{color.accent.30.value}"},
+                    "focus": {"value": "{color.accent.50.value}"},
+                    "disabled": {"value": "{background.color.framed.disabled.value}"}
+            }
+        },
+            "border":{
+                "color":  {
+                    "default": {"value": "{color.accent.50.value}"},
+                    "hover": {"value": "{color.interaction.primary-hover.value}"},
+                    "active": {"value": "{color.accent.30.value}"},
+                    "focus": {"value": "{color.accent.50.value}"},
+                    "disabled": {"value": "{background.color.framed.disabled.value}"}
+                    },
+                "radius":  {"value": "{border.radius.round.value}"},
+                "width": {
+                    "default": {"value":"{border.width.thin.value}"},
+                    "increase": {"value":"{border.width.thick.value}"}
+                }   
+            }
+        }
     }
 }
