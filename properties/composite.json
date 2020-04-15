@@ -1,4 +1,4 @@
-{
+{ 
     "text": {
         "color": {
             "base": {"value": "{color.base.10.value}"},
@@ -16,10 +16,10 @@
                 "disabled": {"value": "{color.base.80.value}"}
             },
               "framed":{
-                "base": {"value:" "{color.base.90.value}"},
+                "base": {"value": "{color.base.90.value}"},
                 "hover": {"value": "{color.base.100.value}"}, 
                 "active": {"value": "{color.base.30.value}"}, 
-                "disabled": {"value": "{color.base.70.value}"}, 
+                "disabled": {"value": "{color.base.70.value}"} 
                 }
             }
         },
@@ -30,7 +30,7 @@
             "hover": {"value": "{color.base.30.value}"}, 
             "active": {"value": "{color.base.30.value}"}, 
             "focus": {"value": "{color.base.50.value}"},
-            "disabled": {"value": "{color.base.70.value}"},
+            "disabled": {"value": "{color.base.70.value}"}
         },
         "radius": {
             "none": {"value": "{dimension.static.size.0.value}"},
@@ -42,19 +42,34 @@
             "thick": {"value": "{dimension.static.size.25.value}"}
         }
     },
+    
     "button":{
+    
         "text": {
             "line-height": {"value": "{line-height.small.value}"},
             "font-size": {"value": "{dimension.font.size.medium.value}"},
             "font-weight": {"value": "{font.weight.bold.value}"},
             "color": {
                 "positive": {"value": "{color.base.10.value}"},
-                "reversed": {"value": "{color.base.100.value}"},
+                "reversed": {"value": "{color.base.100.value}"}
             }
         },
+        
         "height":{
-            "medium": {"value": "{dimension.static.size.400.value}"},
+            "medium":{"value": "{dimension.static.size.400.value}"},
             "large": {"value": "{dimension.static.size.500.value}"}
-        }
-    }
+        },
+        
+        "text-padding":{
+            "medium":{
+                    "x": {"value": "{dimension.static.size.150.value}"},
+                    "y": {"value": "{dimension.static.size.65.value}"}
+                  },
+
+             "large":{   
+                    "x": {"value": "{dimension.static.size.200.value}"},
+                    "y": {"value": "{dimension.static.size.110.value}"}
+                  }
+            }
+      }
 }
