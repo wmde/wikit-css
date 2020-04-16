@@ -35,7 +35,7 @@
                     "hover": {"value": "{color.interaction.primary-hover.value}"},
                     "active": {"value": "{color.accent.30.value}"},
                     "focus": {"value": "{color.accent.50.value}"},
-                    "disabled": {"value": "{background.color.framed.disabled.value}"}
+                    "disabled": {"value": "{button.background.color.disabled.value}"}
             }
         },
             "border":{
@@ -44,7 +44,7 @@
                     "hover": {"value": "{color.interaction.primary-hover.value}"},
                     "active": {"value": "{color.accent.30.value}"},
                     "focus": {"value": "{color.accent.50.value}"},
-                    "disabled": {"value": "{background.color.framed.disabled.value}"}
+                    "disabled": {"value": "{button.border.color.disabled.value}"}
                     },
                 "radius":  {"value": "{border.radius.round.value}"},
                 "width": {
