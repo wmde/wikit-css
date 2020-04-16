@@ -30,7 +30,9 @@
   "homepage": "https://github.com/wmde/design-system-components#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@storybook/addon-docs": "^5.3.18",
     "@storybook/html": "^5.3.18",
+    "@whitespace/storybook-addon-html": "^1.2.1",
     "babel-loader": "^8.1.0",
     "style-dictionary": "^2.8.3"
   }
