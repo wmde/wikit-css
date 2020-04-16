@@ -68,6 +68,18 @@
         "height":{
             "medium":{"value": "{dimension.static.size.400.value}"},
             "large": {"value": "{dimension.static.size.500.value}"}
+        },
+        
+        "border":{
+            "color":{
+                "disabled": {"value": "{color.base.70.value}"}
+            }
+        },
+        
+        "background":{
+            "color":{
+                "disabled": {"value": "{color.base.70.value}"}
+            }
         }
     }
 }
