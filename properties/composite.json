@@ -11,9 +11,10 @@
         "color": {
             "unframed":{
                 "base": {"value": "{color.base.100.value}"}, 
-                "hover": {"value": "{color.base.80.value}"}, 
+                "hover": {"value": "{color.base.80.value}"},
+                "active": {"value": "{color.base.80.value}"},
                 "focus": {"value": "{color.base.100.value}"},
-                "disabled": {"value": "{color.base.80.value}"}
+                "disabled": {"value": "{color.base.70.value}"}
             },
               "framed":{
                 "base": {"value": "{color.base.90.value}"},
@@ -68,6 +69,24 @@
         "height":{
             "medium":{"value": "{dimension.static.size.400.value}"},
             "large": {"value": "{dimension.static.size.500.value}"}
+        },
+        
+        "border":{
+            "color":{
+                "disabled": "{dimension.static.size.400.value}"}
+        },
+        
+        "background":{
+            "color":{
+                "disabled": "{color.base.70.value}"}
         }
-    }
+    },
+    
+    "input":{
+        "border":{
+            "color":{
+                "disabled":{"value":"{color.base.80.value}"}
+        }
+     }
+  }
 }
