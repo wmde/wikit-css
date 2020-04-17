@@ -1,8 +1,8 @@
 {
   "name": "design-system-components",
   "version": "0.0.1",
-  "description": "This repository holds documentation, demo story book, base components library and Design Tokens for the Wikibase Design System. ",
-  "main": "index.js",
+  "description": "This repository holds documentation, demo story book, base components library and Design Tokens for the Wikibase Design System.",
+  "main": "main.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-s dev:tokens dev:storybook",
@@ -11,9 +11,11 @@
     "dev:storybook": "start-storybook -p 6006",
     "dev:tokens": "npm run build:tokens -- --platform less-dev",
     "build:storybook": "build-storybook -o docs/",
-    "build:styles": "lessc ./src/main.less ./build/main.css",
+    "build:styles": "run-s pre:styles post:styles",
     "build:tokens": "style-dictionary build -c ./.style-dictionary/config.json",
-    "clean:tokens": "style-dictionary clean -c ./.style-dictionary/config.json"
+    "clean:tokens": "style-dictionary clean -c ./.style-dictionary/config.json",
+    "pre:styles": "lessc ./src/main.less ./build/wikit.css",
+    "post:styles": "postcss build/wikit.css -o build/wikit.min.css"
   },
   "repository": {
     "type": "git",
@@ -39,10 +41,20 @@
     "@storybook/addon-docs": "^5.3.18",
     "@storybook/html": "^5.3.18",
     "@whitespace/storybook-addon-html": "^1.2.1",
+    "autoprefixer": "^9.7.6",
     "babel-loader": "^8.1.0",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
     "npm-run-all": "^4.1.5",
-    "style-dictionary": "^2.8.3"
+    "postcss-cli": "^7.1.0",
+    "postcss-load-config": "^2.1.0",
+    "style-dictionary": "^2.8.3",
+    "postcss-clean": "^1.1.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-clean": {}
+    }
   }
 }
