@@ -8,6 +8,7 @@
     "start": "run-s dev:tokens dev:storybook",
     "build": "run-s clean build:tokens build:styles build:storybook",
     "clean": "rm -rf ./build ./docs",
+    "publish": "run-s build publish:storybook",
     "dev:storybook": "start-storybook -p 6006",
     "dev:tokens": "npm run build:tokens -- --platform less-dev",
     "build:storybook": "build-storybook -o docs/",
@@ -15,7 +16,8 @@
     "build:tokens": "style-dictionary build -c ./.style-dictionary/config.json",
     "clean:tokens": "style-dictionary clean -c ./.style-dictionary/config.json",
     "pre:styles": "lessc ./src/main.less ./build/wikit.css",
-    "post:styles": "postcss build/wikit.css -o build/wikit.min.css"
+    "post:styles": "postcss build/wikit.css -o build/wikit.min.css",
+    "publish:storybook": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
@@ -43,13 +45,14 @@
     "@whitespace/storybook-addon-html": "^1.2.1",
     "autoprefixer": "^9.7.6",
     "babel-loader": "^8.1.0",
+    "gh-pages": "^2.2.0",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
     "npm-run-all": "^4.1.5",
+    "postcss-clean": "^1.1.0",
     "postcss-cli": "^7.1.0",
     "postcss-load-config": "^2.1.0",
-    "style-dictionary": "^2.8.3",
-    "postcss-clean": "^1.1.0"
+    "style-dictionary": "^2.8.3"
   },
   "postcss": {
     "plugins": {
