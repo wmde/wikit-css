@@ -86,3 +86,27 @@ button,
         box-shadow: @button-neutral-box-shadow-focus;
     }
 }
+
+.button-destructive {
+    // Colors
+    color: @button-destructive-text-color-default;
+    background: @button-destructive-background-color-default;
+    border-color: @button-destructive-border-color-default;
+    
+    // States
+    &:hover {
+        background: @button-destructive-background-color-hover;
+        border-color: @button-destructive-border-color-hover;
+    }
+    
+    &:active {
+        background: @button-destructive-background-color-active;
+        border-color: @button-destructive-border-color-active;
+    }
+
+    &:focus {
+        background-color: @button-destructive-background-color-focus;
+        border-color: @button-destructive-border-color-focus;
+        box-shadow: @button-destructive-box-shadow-focus;
+    }
+}

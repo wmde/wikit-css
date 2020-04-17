@@ -6,8 +6,11 @@ import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
 
 ## Deafult
 <Story name="Default" parameters={{ docs: { disable: true }}}>
-    {`<button class="button-neutral">Neutral</button>
-        <button class="button-primary">Primary</button>`}
+    {`
+        <button class="button-neutral">Neutral</button>
+        <button class="button-primary">Primary</button>
+        <button class="button-destructive">Destructive</button>
+    `}
 </Story>
 
 ### Sizes
@@ -16,12 +19,14 @@ import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
 <Preview>
     <button class="button-neutral">Click Me!</button>
     <button class="button-primary">Click Me!</button>
+    <button class="button-destructive">Click Me!</button>
 </Preview>
 
 #### Large
 <Preview>
     <button class="button-neutral large">Click Me!</button>
     <button class="button-primary large">Click Me!</button>
+    <button class="button-destructive large">Click Me!</button>
 </Preview>
 
 ### States

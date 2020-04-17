@@ -121,7 +121,7 @@
                     "default": {"value": "{color.utility.red.50.value}"},
                     "hover": {"value": "{color.utility.red.30.value}"},
                     "active": {"value": "{color.interaction.destructive-active.value}"},
-                    "focus": {"value": "{color.utility.red.50.value"}
+                    "focus": {"value": "{color.utility.red.50.value}"}
                         }
                 },
                  
