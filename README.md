@@ -4,24 +4,28 @@ Prototype for a Design System and UI toolkit for WMDE Wikibasenpm insta
 
 ## Using this library
 
-The current stable version of the design system may be viewed at: `<STORYBOOK URL>`
-
-You can use any of the following to include the library in your project:
+The current stable version of the design system may be viewed at: https://wmde.github.io/design-system-components/
 
 ### CDN Link (CSS Only)
-`<CDN URL>`
+
+```
+https://unpkg.com/@itamar.wmde/wikit-css
+```
 
 ## Using the Design Tokens
 
 ### CDN Link (CSS Variables)
-`<CDN URL>`
+
+```
+https://unpkg.com/@itamar.wmde/wikit-css/build/tokens/variables.css
+```
 
 ### npm Package
 
 1. Install the package
 
     ```bash
-    npm install wikit-css
+    npm install @itamar.wmde/wikit-css
     ```
 
 1. Import Tokens:
@@ -40,17 +44,13 @@ You can use any of the following to include the library in your project:
 
     **scss:**
     ```scss
-    @import 'node_modules/wikit-css/build/tokens/_variables.less'
+    @import 'node_modules/wikit-css/build/tokens/_variables.scss'
     ```
 
     **js (es6+):**
     ```js
     import * as tokens from '@itamar.wmde/wikit-css'
     ```
-
-### Download Files
-
-`<DOWNLOAD URL>`
 
 ## Local Development
 
