@@ -6,19 +6,21 @@ import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
 
 ## Deafult
 <Story name="Default" parameters={{ docs: { disable: true }}}>
-    {`<button class="button-primary">Click Me</button>
-        <button class="button-primary large">Click Me</button>`}
+    {`<button class="button-neutral">Neutral</button>
+        <button class="button-primary">Primary</button>`}
 </Story>
 
 ### Sizes
 
 #### Medium (default)
 <Preview>
+    <button class="button-neutral">Click Me!</button>
     <button class="button-primary">Click Me!</button>
 </Preview>
 
 #### Large
 <Preview>
+    <button class="button-neutral large">Click Me!</button>
     <button class="button-primary large">Click Me!</button>
 </Preview>
 
@@ -26,6 +28,6 @@ import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
 
 #### Disabled
 <Preview>
-    <button class="button-primary" disabled>Click Me!</button>
+    <button disabled>Click Me!</button>
 </Preview>
 
