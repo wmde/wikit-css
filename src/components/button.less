@@ -1,57 +1,66 @@
+// Default
 button, 
 .button {
     display: inline-block;
-    border-style: solid;
-}
-
-.button-primary {
+    
     // Typography
-    font-family: @button-primary-text-font-family;
-    font-size: @button-primary-text-font-size;
-    font-weight: @button-primary-text-font-weight; 
-    color: @button-primary-text-color-default;
-    line-height: @button-primary-text-line-height;
-    
-    // Background
-    background: @button-primary-background-color-default;
-    
+    font-family: @button-text-font-family;
+    font-weight: @button-text-font-weight;
+    font-size: @button-text-font-size;
+    line-height: @button-text-line-height;
+
     // Border
-    border-color: @button-primary-border-color-default;
-    border-radius: @button-primary-border-radius;
-    border-width: @button-primary-border-width-default;
-    // @button-primary-border-width-increase;
-    
+    border-style: solid;
+    border-radius: @button-border-radius;
+    border-width: @button-border-width-default;
+
     // Sizes
     &, &.medium {
-        min-height: @button-primary-size-medium-height;
-        padding: @button-primary-size-medium-text-padding-y @button-primary-size-medium-text-padding-x;
+        min-height: @button-size-medium-height;
+        padding: @button-size-medium-text-padding-y @button-size-medium-text-padding-x;
     }
     
-
     &.large {
-        min-height: @button-primary-size-large-height;
-        padding: @button-primary-size-large-text-padding-y @button-primary-size-large-text-padding-x; 
+        min-height: @button-size-large-height;
+        padding: @button-size-large-text-padding-y @button-size-large-text-padding-x;
     }
+    
+    // States
+    &[disabled], &.disabled {
+        color: @button-text-color-disabled;
+        background: @button-background-color-disabled;
+        border-color: @button-border-color-disabled;
+    }
+}
 
+// Flavours
+.button-primary {
+    // Colors
+    color: @button-primary-text-color-default;
+    background:  @button-primary-background-color-default;
+    border-color: @button-primary-border-color-default;
+    
     // States
     &:hover {
         background: @button-primary-background-color-hover;
         border-color: @button-primary-border-color-hover;
     }
-
+    
     &:active {
         background: @button-primary-background-color-active;
         border-color: @button-primary-border-color-active;
     }
 
     &:focus {
-        background: @button-primary-background-color-focus;
+        background-color: @button-primary-background-color-focus;
         border-color: @button-primary-border-color-focus;
+        box-shadow: @button-primary-box-shadow-focus;
+        outline: none;
     }
-
-    &[disabled] {
-        color: @button-primary-text-color-disabled;
-        background: @button-primary-background-color-disabled;
-        border-color: @button-primary-border-color-disabled;
+    
+    &[disabled], &.disabled {
+        color: @button-text-color-disabled;
+        background: @button-background-color-disabled;
+        border-color: @button-border-color-disabled;
     }
 }

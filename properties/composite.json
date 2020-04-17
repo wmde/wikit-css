@@ -78,9 +78,9 @@
 
         "box-shadow":{
             "inset":{
-                "default":{"value":"{box-shadow.inset.thin.value}, {color.accent.50}"},
-                "destructive":{"value":"{box-shadow.inset.thin.value}, {color.utility.red.50}"},
-                "filled":{"value":"{box-shadow.inset.thick.value}, {color.base.100}"}
+                "default":{"value":"{box-shadow.inset.thin.value} {color.accent.50.value}"},
+                "destructive":{"value":"{box-shadow.inset.thin.value} {color.utility.red.50.value}"},
+                "filled":{"value":"{box-shadow.inset.thick.value} {color.base.100.value}"}
             }
         },
   
