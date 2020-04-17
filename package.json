@@ -1,6 +1,6 @@
 {
   "name": "@itamar.wmde/wikit-css",
-  "version": "0.0.1-0",
+  "version": "0.0.1-1",
   "description": "Prototype for a Design System and UI toolkit for WMDE Wikibase",
   "css": "build/wikit.css",
   "less": "src/main.less",
@@ -46,7 +46,7 @@
   "bugs": {
     "url": "https://github.com/wmde/design-system-components/issues"
   },
-  "homepage": "https://github.com/wmde/design-system-components#readme",
+  "homepage": "https://wmde.github.io/design-system-components",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@storybook/addon-docs": "^5.3.18",
