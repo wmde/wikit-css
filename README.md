@@ -1,6 +1,6 @@
 # WiKit CSS
 
-A Design System and CSS UI kit for WMDEs Wikibase.
+Prototype for a Design System and UI toolkit for WMDE Wikibasenpm insta
 
 ## Using this library
 
@@ -16,7 +16,7 @@ You can use any of the following to include the library in your project:
 ### CDN Link (CSS Variables)
 `<CDN URL>`
 
-### NPM Package
+### npm Package
 
 1. Install the package
 
@@ -45,7 +45,7 @@ You can use any of the following to include the library in your project:
 
     **js (es6+):**
     ```js
-    import * as tokens from 'wikit-css'
+    import * as tokens from '@itamar.wmde/wikit-css'
     ```
 
 ### Download Files

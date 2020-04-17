@@ -3,7 +3,7 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
+      "buildPath": "build/tokens/",
       "files": [{
         "destination": "_variables.scss",
         "format": "scss/variables"
@@ -11,7 +11,7 @@
     },
     "css": {
       "transformGroup": "css",
-      "buildPath": "build/css/",
+      "buildPath": "build/tokens/",
       "files": [{
         "destination": "variables.css",
         "format": "css/variables"
@@ -19,7 +19,7 @@
     },
     "less": {
       "transformGroup": "less",
-      "buildPath": "build/less/",
+      "buildPath": "build/tokens/",
       "files": [{
         "destination": "_variables.less",
         "format": "less/variables"
@@ -27,9 +27,9 @@
     },
     "js": {
       "transformGroup": "js",
-      "buildPath": "build/js/",
+      "buildPath": "build/tokens/",
       "files": [{
-        "destination": "tokens.js",
+        "destination": "index.js",
         "format": "javascript/es6"
       }]
     },

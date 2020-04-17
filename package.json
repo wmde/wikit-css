@@ -1,8 +1,14 @@
 {
-  "name": "wikit-css",
+  "name": "@itamar.wmde/wikit-css",
   "version": "0.0.1",
-  "description": "A Design System and UI toolkit for WMDEs wikibase",
-  "main": "main.css",
+  "description": "Prototype for a Design System and UI toolkit for WMDE Wikibase",
+  "css": "build/main.css",
+  "less": "src/main.less",
+  "main": "build/tokens/index.js",
+  "files": [
+    "build/*",
+    "src/**/*.less"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-s dev:tokens dev:storybook",
@@ -59,5 +65,9 @@
       "autoprefixer": {},
       "postcss-clean": {}
     }
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {}
 }
