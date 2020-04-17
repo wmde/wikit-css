@@ -4,7 +4,73 @@
             "base": {"value": "{color.base.10.value}"},
             "emphasized": {"value": "{color.base.0.value}"},
             "secondary": {"value": "{color.base.30.value}"}
-        }
+        },
+    
+        "style":{   
+            "h1":{
+                "font-family":{"value":"{font.family.serif.value}"},
+                "size": {"value": "{dimension.font.size.xxxlarge.value}"},
+                "line-height": {"value": "{font.line-height.small.value}"},
+                "color": {"value": "{text.color.base.10.value}"},
+                "font-weight":{"value": "{font.weight.regular.value}"}
+                },
+            
+            "h2":{
+                "font-family":{"value":"{font.family.sans.value}"},
+                "size": {"value": "{dimension.font.size.xxlarge.value}"},
+                "line-height": {"value": "{font.line-height.small.value}"},
+                "color": {"value": "{text.color.base.10.value}"},
+                "font-weight":{"value": "{font.weight.bold.value}"}
+                },
+    
+            "h3":{
+                "font-family":{"value":"{font.family.sans.value}"},
+                "size": {"value": "{dimension.font.size.xlarge.value}"},
+                "line-height": {"value": "{font.line-height.small.value}"},
+                "color": {"value": "{text.color.base.10.value}"},
+                "font-weight":{"value": "{font.weight.bold.value}"}
+                },
+    
+            "h4":{
+                "font-family":{"value":"{font.family.sans.value}"},
+                "size": {"value": "{dimension.font.size.large.value}"},
+                "line-height": {"value": "{font.line-height.small.value}"},
+                "color": {"value": "{text.color.base.10.value}"},
+                "font-weight":{"value": "{font.weight.bold.value}"}
+                },
+            
+            "h5":{
+                "font-family":{"value":"{font.family.sans.value}"},
+                "size": {"value": "{dimension.font.size.large.value}"},
+                "line-height": {"value": "{font.line-height.small.value}"},
+                "color": {"value": "{text.color.base.10.value}"},
+                "font-weight":{"value": "{font.weight.bold.value}"}
+                },
+
+            "h6":{
+                "font-family":{"value":"{font.family.sans.value}"},
+                "size": {"value": "{dimension.font.size.medium.value}"},
+                "line-height": {"value": "{font.line-height.small.value}"},
+                "color": {"value": "{text.color.base.10.value}"},
+                "font-weight":{"value": "{font.weight.regular.value}"}
+                },
+
+            "body":{
+                "font-family":{"value":"{font.family.sans.value}"},
+                "size": {"value": "{dimension.font.size.medium.value}"},
+                "line-height": {"value": "{font.line-height.medium.value}"},
+                "color": {"value": "{text.color.base.10.value}"},
+                "font-weight":{"value": "{font.weight.regular.value}"}
+                },
+            
+             "description":{
+                "font-family":{"value":"{font.family.sans.value}"},
+                "size": {"value": "{dimension.font.size.small.value}"},
+                "line-height": {"value": "{font.line-height.large.value}"},
+                "color": {"value": "{text.color.base.30.value}"},
+                "font-weight":{"value": "{font.weight.regular.value}"}
+                }
+            }
     },
     
     "background":{
@@ -34,8 +100,8 @@
         },
         "radius": {
             "none": {"value": "{dimension.static.size.0.value}"},
-            "round": {"value": "{dimension.static.size.25.value}"},
-            "rounder": {"value": "{dimension.static.size.50.value}"}
+            "small": {"value": "{dimension.static.size.25.value}"},
+            "medium": {"value": "{dimension.static.size.50.value}"}
         },
         "width": {
             "thin": {"value": "{dimension.static.size.10.value}"},
