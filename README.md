@@ -2,7 +2,7 @@
 
 **Big Bad Disclaimer:** This code is **only a prototype** and by no means meant to be used in anything.
 
-Prototype for a Design System and UI toolkit for WMDE Wikibasenpm insta
+Prototype for a Design System and UI toolkit for WMDE Wikibase.
 
 ## Using this library
 
