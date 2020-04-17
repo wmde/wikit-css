@@ -1,6 +1,6 @@
 {
   "name": "@itamar.wmde/wikit-css",
-  "version": "0.0.4-1.0",
+  "version": "0.0.1-0",
   "description": "Prototype for a Design System and UI toolkit for WMDE Wikibase",
   "css": "build/wikit.css",
   "less": "src/main.less",
