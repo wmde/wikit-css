@@ -1,6 +1,7 @@
 build/
 docs/
 src/tokens/
+.DS_Store
 
 .vscode/
 
