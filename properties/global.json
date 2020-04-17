@@ -60,7 +60,7 @@
         }
     },
 
-      "dimension": {
+    "dimension": {
         "font":{
                 "size": {
                     "xsmall": {"value": "13px"},
@@ -99,5 +99,13 @@
            "slower": {"value": "300ms"},
            "slowest": {"value": "400ms"}
         }
+    },
+
+    "box-shadow": {
+        "inset":{
+                "thin": {"value": "0 0 0 1px"},
+                "thick": {"value": "0 0 0 2px"}
+        }
     }
+
 }

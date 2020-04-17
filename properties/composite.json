@@ -43,7 +43,7 @@
         }
     },
     
-    "button":{
+    "cta":{
     
         "text": {
             "line-height": {"value": "{font.line-height.small.value}"},
@@ -75,7 +75,15 @@
                 "disabled": {"value": "{color.base.70.value}"}
             }
         },
-        
+
+        "box-shadow":{
+            "inset":{
+                "default":{"value":"{box-shadow.inset.thin.value}, {color.accent.50}"},
+                "filled":{"value":"{box-shadow.inset.thick.value}, {color.base.100}"}
+            }
+
+        },
+  
         "background":{
             "color":{
                 "disabled": {"value": "{color.base.70.value}"}
