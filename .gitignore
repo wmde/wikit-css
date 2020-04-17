@@ -1,4 +1,8 @@
 build/
+docs/
+src/tokens/
+
+.vscode/
 
 # Logs
 logs

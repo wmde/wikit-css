@@ -32,6 +32,14 @@
         "destination": "tokens.js",
         "format": "javascript/es6"
       }]
+    },
+    "less-dev": {
+      "transformGroup": "less",
+      "buildPath": "src/tokens/",
+      "files": [{
+        "destination": "_variables.less",
+        "format": "less/variables"
+      }]
     }
   }
 }
