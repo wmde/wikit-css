@@ -4,11 +4,28 @@ import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
 
 # Button
 
-This is a primary button's documentation
+## Primary 
+<Story name="Primary" parameters={{ docs: { disable: true }}}>
+    {`<button class="button-primary">Click Me</button>
+        <button class="button-primary large">Click Me</button>`}
+</Story>
 
-<Story name="Primary" parameters={{ docs: { disable: true }}} />
+### Sizes
 
+#### Medium (default)
 <Preview>
     <button class="button-primary">Click Me!</button>
+</Preview>
+
+#### Large
+<Preview>
+    <button class="button-primary large">Click Me!</button>
+</Preview>
+
+### States
+
+#### Disabled
+<Preview>
+    <button class="button-primary" disabled>Click Me!</button>
 </Preview>
 

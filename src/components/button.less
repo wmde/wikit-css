@@ -1,4 +1,57 @@
+button, 
+.button {
+    display: inline-block;
+    border-style: solid;
+}
 
 .button-primary {
-    border-color: red;
+    // Typography
+    font-family: @button-primary-text-font-family;
+    font-size: @button-primary-text-font-size;
+    font-weight: @button-primary-text-font-weight; 
+    color: @button-primary-text-color-default;
+    line-height: @button-primary-text-line-height;
+    
+    // Background
+    background: @button-primary-background-color-default;
+    
+    // Border
+    border-color: @button-primary-border-color-default;
+    border-radius: @button-primary-border-radius;
+    border-width: @button-primary-border-width-default;
+    // @button-primary-border-width-increase;
+    
+    // Sizes
+    &, &.medium {
+        min-height: @button-primary-size-medium-height;
+        padding: @button-primary-size-medium-text-padding-y @button-primary-size-medium-text-padding-x;
+    }
+    
+
+    &.large {
+        min-height: @button-primary-size-large-height;
+        padding: @button-primary-size-large-text-padding-y @button-primary-size-large-text-padding-x; 
+    }
+
+    // States
+    &:hover {
+        background: @button-primary-background-color-hover;
+        border-color: @button-primary-border-color-hover;
+    }
+
+    &:active {
+        background: @button-primary-background-color-active;
+        border-color: @button-primary-border-color-active;
+    }
+
+    &:focus {
+        background: @button-primary-background-color-focus;
+        border-color: @button-primary-border-color-focus;
+    }
+
+    &[disabled] {
+        color: @button-primary-text-color-disabled;
+        background: @button-primary-background-color-disabled;
+        border-color: @button-primary-border-color-disabled;
+    }
 }
