@@ -1,7 +1,7 @@
 {
-  "name": "design-system-components",
+  "name": "wikit-css",
   "version": "0.0.1",
-  "description": "This repository holds documentation, demo story book, base components library and Design Tokens for the Wikibase Design System.",
+  "description": "A Design System and UI toolkit for WMDEs wikibase",
   "main": "main.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

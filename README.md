@@ -1,8 +1,58 @@
-# Wikibase Design System Components
+# WiKit CSS
 
-This repository holds the documentation, demo story book, base components library and design tokens for the Wikibase Design System.
+A Design System and CSS UI kit for WMDEs Wikibase.
 
-## Install Locally
+## Using this library
+
+The current stable version of the design system may be viewed at: `<STORYBOOK URL>`
+
+You can use any of the following to include the library in your project:
+
+### CDN Link (CSS Only)
+`<CDN URL>`
+
+## Using the Design Tokens
+
+### CDN Link (CSS Variables)
+`<CDN URL>`
+
+### NPM Package
+
+1. Install the package
+
+    ```bash
+    npm install wikit-css
+    ```
+
+1. Import Tokens:
+
+    **css:**
+    
+    ```css
+    @import url('node_modules/wikit-css/build/tokens/variables.css')
+    ```
+    
+    **less:**
+
+    ```less
+    @import 'node_modules/wikit-css/build/tokens/_variables.less'
+    ```
+
+    **scss:**
+    ```scss
+    @import 'node_modules/wikit-css/build/tokens/_variables.less'
+    ```
+
+    **js (es6+):**
+    ```js
+    import * as tokens from 'wikit-css'
+    ```
+
+### Download Files
+
+`<DOWNLOAD URL>`
+
+## Local Development
 
 1. Clone this repository
 
@@ -23,22 +73,24 @@ This repository holds the documentation, demo story book, base components librar
     npm start
     ```
 
-## Additional commands
+1. Develop :nerd: :100:
 
-### Exporting tokens (currently into less, scss, css and js)
+### Additional commands
+
+#### Exporting tokens (currently into less, scss, css and js)
  
 ```bash
 npm run build:tokens
 ```
 
-### Building The css library
+#### Building The css library
 
-```
+```bash
 npm run build:styles
 ```
 
-### Building everything (incl. Storybook for publication)
+#### Building everything (incl. Storybook for publication)
 
-```
+```bash
 npm run build
 ```
