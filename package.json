@@ -30,15 +30,17 @@
     "url": "git+https://github.com/wmde/design-system-components.git"
   },
   "keywords": [
-    "Design",
-    "System",
+    "Design System",
     "WMDE",
     "Wikidata",
     "Wikibase",
-    "Component",
-    "Library"
+    "Component Library",
+    "UI kit"
   ],
-  "author": "Itamar Givon <itamar.givon@wikimedia.de>",
+  "contributors": [
+    "Sarai Sanchez Fuentes <sarai.sanchez@wikimedia.de>",
+    "Itamar Givon <itamar.givon@wikimedia.de>"
+  ],
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/wmde/design-system-components/issues"
