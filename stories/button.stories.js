@@ -1,7 +1,7 @@
 import { text, boolean, select } from '@storybook/addon-knobs';
 
 export default {
-    title: 'Button/Default',
+    title: 'Button',
     includeStories: [], // or don't load this file at all
 };
 
