@@ -1,3 +1,4 @@
+import './preview.css';
 import '../src/main.less';
 
 import { addDecorator } from '@storybook/html';

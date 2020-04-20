@@ -200,7 +200,7 @@
                         "value": "{color.interaction.destructive-active.value}"
                     },
                     "focus": {
-                        "value": "{color.utility.red.50.value"
+                        "value": "{color.utility.red.50.value}"
                     }
                 }
             },

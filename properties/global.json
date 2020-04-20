@@ -205,10 +205,10 @@
     "box-shadow": {
         "inset": {
             "thin": {
-                "value": "0 0 0 1px"
+                "value": "inset 0 0 0 1px"
             },
             "thick": {
-                "value": "0 0 0 2px"
+                "value": "inset 0 0 0 2px"
             }
         }
     }
