@@ -7,7 +7,7 @@ export default {
 
 export const headings = () => {
     const container = document.createElement('div');
-    const content = text('Label', 'The quick brown fox...');
+    const content = text('Text', 'The quick brown fox...');
 
     for(let i = 1; i <= 6; i++){
         const heading = document.createElement(`h${i}`);
