@@ -38,7 +38,7 @@
             "color": {
                 "disabled": {"value": "{cta.border.color.disabled.value}"}
                 },
-            "radius": {"value": "{border.radius.round.value}"},
+            "radius": {"value": "{border.radius.small.value}"},
             "width": {"default": {"value":"{border.width.thin.value}"}
             }
         },
