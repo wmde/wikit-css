@@ -206,10 +206,10 @@
                 "value": "background-color"
             },
             "border-color":{
-                "value": "boder-color"
+                "value": "border-color"
             },
             "box-shadow":{
-                "value": "boder-color"
+                "value": "box-shadow"
             }
         }
     },
