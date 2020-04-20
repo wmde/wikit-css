@@ -200,6 +200,11 @@
             "slowest": {
                 "value": "400ms"
             }
+        },
+        "property": {
+            "background-color":{
+                "value": "background-color"
+            }
         }
     },
     "box-shadow": {

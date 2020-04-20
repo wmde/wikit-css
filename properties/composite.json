@@ -302,6 +302,11 @@
                     "value":"{cursor.default.value}"
                 }
             }
+        },
+        "transition":{
+            "hover":{
+                "value":"{transition.property.background-color.value}{transition.duration.fast.value}"
+            }
         }
     }
 }

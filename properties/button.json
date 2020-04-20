@@ -81,6 +81,12 @@
             }
         },
 
+        "transition":{
+            "hover":{
+                "value":"{cta.transition.hover.value}"
+            }
+        },
+
         "neutral": {
             "text": {
                 "color": {
