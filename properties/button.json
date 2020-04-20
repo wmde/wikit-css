@@ -83,7 +83,12 @@
 
         "transition":{
             "hover":{
-                "value":"{cta.transition.hover.value}"
+                "property":{
+                    "value":"{cta.transition.hover.property.value}"
+                },
+                "duration":{
+                    "value":"{cta.transition.hover.duration.value}"
+                }
             }
         },
 

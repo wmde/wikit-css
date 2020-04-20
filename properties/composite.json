@@ -305,7 +305,12 @@
         },
         "transition":{
             "hover":{
-                "value":"{transition.property.background-color.value}{transition.duration.fast.value}"
+                "property":{
+                    "value":"{transition.property.background-color.value}"
+                },
+                "duration": {
+                    "value":"{transition.duration.fast.value}"
+                }
             }
         }
     }
