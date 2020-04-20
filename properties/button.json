@@ -69,6 +69,18 @@
                 }
             }
         },
+
+        "cursor":{
+            "hover":{
+                "enabled":{
+                    "value":"{cta.cursor.hover.enabled.value}"
+                },
+                "disabled":{
+                    "value":"{cta.cursor.hover.disabled.value}"
+                }
+            }
+        },
+
         "neutral": {
             "text": {
                 "color": {

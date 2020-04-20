@@ -211,5 +211,20 @@
                 "value": "inset 0 0 0 2px"
             }
         }
+    },
+
+    "cursor": {
+        "default":{
+            "value": "default"
+        },
+        "grab":{
+            "value": "grab"
+        },
+        "pointer":{
+            "value": "pointer"
+        },
+        "not-allowed":{
+            "value": "not-allowed"
+        } 
     }
 }

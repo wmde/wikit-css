@@ -292,6 +292,16 @@
                     "value": "{color.base.70.value}"
                 }
             }
+        },
+        "cursor":{
+            "hover":{
+                "enabled":{
+                    "value":"{cursor.pointer.value}"
+                },
+                "disabled":{
+                    "value":"{cursor.default.value}"
+                }
+            }
         }
     }
 }
