@@ -50,6 +50,7 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
     "@storybook/html": "^5.3.18",
     "@whitespace/storybook-addon-html": "^1.2.1",
     "autoprefixer": "^9.7.6",
@@ -72,5 +73,7 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {}
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
