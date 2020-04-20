@@ -204,6 +204,12 @@
         "property": {
             "background-color":{
                 "value": "background-color"
+            },
+            "border-color":{
+                "value": "boder-color"
+            },
+            "box-shadow":{
+                "value": "boder-color"
             }
         }
     },
