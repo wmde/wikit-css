@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wmde/design-system-components.git"
+    "url": "git+https://github.com/wmde/wikit-css.git"
   },
   "keywords": [
     "Design System",
@@ -44,9 +44,9 @@
   ],
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/wmde/design-system-components/issues"
+    "url": "https://github.com/wmde/wikit-css/issues"
   },
-  "homepage": "https://wmde.github.io/design-system-components",
+  "homepage": "https://wmde.github.io/wikit-css",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@storybook/addon-docs": "^5.3.18",
