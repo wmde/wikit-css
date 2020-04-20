@@ -21,7 +21,7 @@ export const defaultButton = () => {
     const type = select('Type', flavours, 'neutral');
     const button = document.createElement('button');
     
-    button.innerText = text('Label', 'Click Me! ');
+    button.innerText = text('Label', 'Click me');
     button.classList.add(`button-${type}`, size);
     button.disabled = boolean('Disabled', false);
     
