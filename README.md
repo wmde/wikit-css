@@ -75,7 +75,7 @@ https://unpkg.com/@itamar.wmde/wikit-css/build/tokens/variables.css
     npm start
     ```
 
-1. Develop :nerd: :100:
+1. Develop :nerd_face: :100:
 
 ### Additional commands
 
