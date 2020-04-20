@@ -11,7 +11,7 @@
                 "font-family":{"value":"{font.family.serif.value}"},
                 "size": {"value": "{dimension.font.size.xxxlarge.value}"},
                 "line-height": {"value": "{font.line-height.small.value}"},
-                "color": {"value": "{text.color.base.10.value}"},
+                "color": {"value": "{color.base.10.value}"},
                 "font-weight":{"value": "{font.weight.regular.value}"}
                 },
             
@@ -19,7 +19,7 @@
                 "font-family":{"value":"{font.family.sans.value}"},
                 "size": {"value": "{dimension.font.size.xxlarge.value}"},
                 "line-height": {"value": "{font.line-height.small.value}"},
-                "color": {"value": "{text.color.base.10.value}"},
+                "color": {"value": "{color.base.10.value}"},
                 "font-weight":{"value": "{font.weight.bold.value}"}
                 },
     
@@ -27,7 +27,7 @@
                 "font-family":{"value":"{font.family.sans.value}"},
                 "size": {"value": "{dimension.font.size.xlarge.value}"},
                 "line-height": {"value": "{font.line-height.small.value}"},
-                "color": {"value": "{text.color.base.10.value}"},
+                "color": {"value": "{color.base.10.value}"},
                 "font-weight":{"value": "{font.weight.bold.value}"}
                 },
     
@@ -35,7 +35,7 @@
                 "font-family":{"value":"{font.family.sans.value}"},
                 "size": {"value": "{dimension.font.size.large.value}"},
                 "line-height": {"value": "{font.line-height.small.value}"},
-                "color": {"value": "{text.color.base.10.value}"},
+                "color": {"value": "{color.base.10.value}"},
                 "font-weight":{"value": "{font.weight.bold.value}"}
                 },
             
@@ -43,7 +43,7 @@
                 "font-family":{"value":"{font.family.sans.value}"},
                 "size": {"value": "{dimension.font.size.large.value}"},
                 "line-height": {"value": "{font.line-height.small.value}"},
-                "color": {"value": "{text.color.base.10.value}"},
+                "color": {"value": "{color.base.10.value}"},
                 "font-weight":{"value": "{font.weight.bold.value}"}
                 },
 
@@ -51,7 +51,7 @@
                 "font-family":{"value":"{font.family.sans.value}"},
                 "size": {"value": "{dimension.font.size.medium.value}"},
                 "line-height": {"value": "{font.line-height.small.value}"},
-                "color": {"value": "{text.color.base.10.value}"},
+                "color": {"value": "{color.base.10.value}"},
                 "font-weight":{"value": "{font.weight.regular.value}"}
                 },
 
@@ -59,7 +59,7 @@
                 "font-family":{"value":"{font.family.sans.value}"},
                 "size": {"value": "{dimension.font.size.medium.value}"},
                 "line-height": {"value": "{font.line-height.medium.value}"},
-                "color": {"value": "{text.color.base.10.value}"},
+                "color": {"value": "{color.base.10.value}"},
                 "font-weight":{"value": "{font.weight.regular.value}"}
                 },
             
@@ -67,7 +67,7 @@
                 "font-family":{"value":"{font.family.sans.value}"},
                 "size": {"value": "{dimension.font.size.small.value}"},
                 "line-height": {"value": "{font.line-height.large.value}"},
-                "color": {"value": "{text.color.base.30.value}"},
+                "color": {"value": "{color.base.30.value}"},
                 "font-weight":{"value": "{font.weight.regular.value}"}
                 }
             }

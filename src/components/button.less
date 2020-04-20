@@ -6,31 +6,31 @@ button,
 
 .button-primary {
     // Typography
-    font-family: @button-primary-text-font-family;
-    font-size: @button-primary-text-font-size;
-    font-weight: @button-primary-text-font-weight; 
+    font-family: @button-text-font-family;
+    font-size: @button-text-font-size;
+    font-weight: @button-text-font-weight; 
     color: @button-primary-text-color-default;
-    line-height: @button-primary-text-line-height;
+    line-height: @button-text-line-height;
     
     // Background
     background: @button-primary-background-color-default;
     
     // Border
     border-color: @button-primary-border-color-default;
-    border-radius: @button-primary-border-radius;
-    border-width: @button-primary-border-width-default;
+    border-radius: @button-border-radius;
+    border-width: @button-border-width-default;
     // @button-primary-border-width-increase;
     
     // Sizes
     &, &.medium {
-        min-height: @button-primary-size-medium-height;
-        padding: @button-primary-size-medium-text-padding-y @button-primary-size-medium-text-padding-x;
+        min-height: @button-size-medium-height;
+        padding: @button-size-medium-text-padding-y @button-size-medium-text-padding-x;
     }
     
 
     &.large {
-        min-height: @button-primary-size-large-height;
-        padding: @button-primary-size-large-text-padding-y @button-primary-size-large-text-padding-x; 
+        min-height: @button-size-large-height;
+        padding: @button-size-large-text-padding-y @button-size-large-text-padding-x; 
     }
 
     // States
@@ -50,8 +50,8 @@ button,
     }
 
     &[disabled] {
-        color: @button-primary-text-color-disabled;
-        background: @button-primary-background-color-disabled;
-        border-color: @button-primary-border-color-disabled;
+        color: @button-text-color-disabled;
+        background: @button-background-color-disabled;
+        border-color: @button-border-color-disabled;
     }
 }
