@@ -96,3 +96,7 @@ npm run build:styles
 ```bash
 npm run build
 ```
+
+## Technical Learnings
+
+As mentioned above, this is a prototype. For a summary of the technical learnings gained from this experiment, please see: https://bit.ly/2KpQ941
