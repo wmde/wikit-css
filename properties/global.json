@@ -260,7 +260,8 @@
             "base":{
                 "value": "solid"
         }
-    },
+    }
+},
 
     "cursor": {
         "default":{
@@ -276,5 +277,4 @@
             "value": "not-allowed"
         } 
     }
-}
 }
