@@ -61,7 +61,7 @@
                 }
             },
             "radius": {
-                "value": "{border.radius.small.value}"
+                "value": "{border.radius.base.value}"
             },
             "width": {
                 "default": {

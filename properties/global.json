@@ -127,12 +127,22 @@
                 }
             }
         },
+
+        "opacity": {
+            "base": {
+                "value": "1"
+                },
+                "disabled":{
+                    "value": "0.51"
+                }
+        },
+
         "interaction": {
             "primary-hover": {
                 "value": "#447ff5"
             },
             "destructive-hover": {
-                "value": "#FF4242"
+                "value": "#ff4242"
             }
         }
     },
@@ -206,13 +216,14 @@
             }
         }
     },
+
     "transition": {
         "duration": {
             "fast": {
                 "value": "100ms"
             },
-            "regular": {
-                "value": "200ms"
+            "medium": {
+                "value": "250ms"
             },
             "slower": {
                 "value": "300ms"

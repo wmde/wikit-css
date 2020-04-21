@@ -176,7 +176,19 @@
                     "value": "{color.base.70.value}"
                 },
                 "disabled": {
-                    "value": "{color.base.70.value}"
+                    "value": "{color.base.80.value}"
+                },
+                "error":{
+                    "value":"{color.utility.red.90.value}"
+                },
+                "warning":{
+                    "value":"{color.utility.yellow.90.value}"
+                },
+                "success":{
+                    "value":"{color.utility.green.90.value}"
+                },
+                "notice":{
+                    "value":"{color.utility.base.80.value}"
                 }
             },
             "filled": {
@@ -192,7 +204,7 @@
                 "value": "{color.base.50.value}"
             },
             "hover": {
-                "value": "{color.base.30.value}"
+                "value": "{color.base.50.value}"
             },
             "active": {
                 "value": "{color.base.30.value}"
@@ -202,16 +214,28 @@
             },
             "disabled": {
                 "value": "{color.base.70.value}"
+            },
+            "error":{
+                "value":"{color.utility.red.50.value}"
+            },
+            "warning":{
+                "value":"{color.utility.yellow.50.value}"
+            },
+            "success":{
+                "value":"{color.utility.green.50.value}"
+            },
+            "notice":{
+                "value":"{color.utility.base.70.value}"
             }
         },
         "radius": {
             "none": {
                 "value": "{dimension.static.size.0.value}"
             },
-            "small": {
+            "base": {
                 "value": "{dimension.static.size.25.value}"
             },
-            "medium": {
+            "rounder": {
                 "value": "{dimension.static.size.50.value}"
             }
         },
@@ -221,6 +245,11 @@
             },
             "thick": {
                 "value": "{dimension.static.size.25.value}"
+            }
+        },
+        "style":{
+            "base":{
+                "value": "{solid}"
             }
         }
     },
