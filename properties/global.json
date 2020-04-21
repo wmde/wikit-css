@@ -258,7 +258,7 @@
     "border":{
         "style":{
             "base":{
-                "value": "{solid}"
+                "value": "solid"
         }
     },
 
