@@ -1,4 +1,22 @@
 {
+    "width-breakpoint":{
+        "mobile":{
+            "value":"320px"
+        },
+        "tablet":{
+            "value":"720px"
+        },
+        "desktop":{
+            "value":"1000px"
+        },
+        "desktop-wide":{
+            "value":"1200px"
+        },
+        "desktop-extrawide":{
+            "value":"2000px"
+        }
+    },
+
     "font": {
         "family": {
             "sans": {
@@ -84,17 +102,7 @@
                     "value": "#fee7e6"
                 }
             },
-            "green": {
-                "30": {
-                    "value": "#14866d"
-                },
-                "50": {
-                    "value": "#00af89"
-                },
-                "90": {
-                    "value": "#d5fdf4"
-                }
-            },
+
             "yellow": {
                 "30": {
                     "value": "#ac6600"
@@ -105,14 +113,26 @@
                 "90": {
                     "value": "#fef6e7"
                 }
+            },
+            
+            "green": {
+                "30": {
+                    "value": "#14866d"
+                },
+                "50": {
+                    "value": "#00af89"
+                },
+                "90": {
+                    "value": "#d5fdf4"
+                }
             }
         },
         "interaction": {
             "primary-hover": {
                 "value": "#447ff5"
             },
-            "destructive-active": {
-                "value": "#D11D13"
+            "destructive-hover": {
+                "value": "#FF4242"
             }
         }
     },
