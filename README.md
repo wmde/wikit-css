@@ -6,7 +6,7 @@ Prototype for a Design System and UI toolkit for WMDE Wikibase.
 
 ## Using this library
 
-The current stable version of the design system may be viewed at: https://wmde.github.io/design-system-components/
+The current stable version of the design system may be viewed at: https://wmde.github.io/wikit-css/
 
 ### CDN Link (CSS Only)
 
