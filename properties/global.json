@@ -255,6 +255,13 @@
         }
     },
 
+    "border":{
+        "style":{
+            "base":{
+                "value": "{solid}"
+        }
+    },
+
     "cursor": {
         "default":{
             "value": "default"

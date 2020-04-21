@@ -67,7 +67,10 @@
                 "default": {
                     "value": "{border.width.thin.value}"
                 }
-            }
+            },
+            "style":{
+                "value":"{cta.border.style.value}"
+                }
         },
 
         "cursor":{
@@ -217,10 +220,10 @@
                         "value": "{color.utility.red.50.value}"
                     },
                     "hover": {
-                        "value": "{color.utility.red.30.value}"
+                        "value": "{color.interaction.destructive-hover.value}"
                     },
                     "active": {
-                        "value": "{color.interaction.destructive-active.value}"
+                        "value": "{color.utility.red.30.value}"
                     },
                     "focus": {
                         "value": "{color.utility.red.50.value}"

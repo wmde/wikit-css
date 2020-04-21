@@ -188,7 +188,7 @@
                     "value":"{color.utility.green.90.value}"
                 },
                 "notice":{
-                    "value":"{color.utility.base.80.value}"
+                    "value":"{color.base.80.value}"
                 }
             },
             "filled": {
@@ -225,7 +225,7 @@
                 "value":"{color.utility.green.50.value}"
             },
             "notice":{
-                "value":"{color.utility.base.70.value}"
+                "value":"{color.base.70.value}"
             }
         },
         "radius": {
@@ -246,13 +246,9 @@
             "thick": {
                 "value": "{dimension.static.size.25.value}"
             }
-        },
-        "style":{
-            "base":{
-                "value": "{solid}"
-            }
         }
     },
+
     "cta": {
         "text": {
             "line-height": {
@@ -304,7 +300,10 @@
                 "disabled": {
                     "value": "{border.color.disabled.value}"
                 }
-            }
+            },
+            "style":{
+                "value":"{border.style.base.value}"
+                }
         },
         "box-shadow": {
             "inset": {
