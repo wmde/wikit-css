@@ -69,6 +69,29 @@
                 }
             }
         },
+
+        "cursor":{
+            "hover":{
+                "enabled":{
+                    "value":"{cta.cursor.hover.enabled.value}"
+                },
+                "disabled":{
+                    "value":"{cta.cursor.hover.disabled.value}"
+                }
+            }
+        },
+
+        "transition":{
+            "hover":{
+                "property":{
+                    "value":"{cta.transition.hover.property.value}"
+                },
+                "duration":{
+                    "value":"{cta.transition.hover.duration.value}"
+                }
+            }
+        },
+
         "neutral": {
             "text": {
                 "color": {

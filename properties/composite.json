@@ -292,6 +292,26 @@
                     "value": "{color.base.70.value}"
                 }
             }
+        },
+        "cursor":{
+            "hover":{
+                "enabled":{
+                    "value":"{cursor.pointer.value}"
+                },
+                "disabled":{
+                    "value":"{cursor.default.value}"
+                }
+            }
+        },
+        "transition":{
+            "hover":{
+                "property":{
+                    "value":"{transition.property.background-color.value}, {transition.property.border-color.value}, {transition.property.box-shadow.value}"
+                },
+                "duration": {
+                    "value":"{transition.duration.fast.value}"
+                }
+            }
         }
     }
 }

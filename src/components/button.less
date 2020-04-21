@@ -30,10 +30,20 @@ button,
         color: @button-text-color-disabled !important;
         background: @button-background-color-disabled !important;
         border-color: @button-border-color-disabled !important;
+
+        &:hover {
+            cursor: @button-cursor-hover-disabled;
+        }
     }
 
     &:focus {
         outline: none;
+    }
+
+    &:hover {
+        cursor: @button-cursor-hover-enabled;
+        transition-property: @button-transition-hover-property;
+        transition-duration: @button-transition-hover-duration;
     }
 }
 
