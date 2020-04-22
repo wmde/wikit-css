@@ -5,32 +5,33 @@ import * as stories from './button.stories.js';
 <Meta title="Components|Button" decorators={[withKnobs]}/>
 
 # Button
+<br/>
 
-## Deafult
 <!-- The story is seperate from the preview, as, unfortunately, storybook docs does not allow us to have "pure" html previews (displays the JS of the story instead) -->
 <Story name="Default" parameters={{ docs: { disable: true }}}>
     {stories.defaultButton()}
 </Story>
 
-### Sizes
+## Sizes
+<br/>
 
-#### Medium (default)
+### Medium (default)
 <Preview>
     <button class="button-neutral">Neutral</button>
     <button class="button-primary">Primary</button>
     <button class="button-destructive">Destructive</button>
 </Preview>
 
-#### Large
+### Large
 <Preview>
     <button class="button-neutral large">Neutral</button>
     <button class="button-primary large">Primary</button>
     <button class="button-destructive large">Destructive</button>
 </Preview>
 
-### States
+## States
 
-#### Disabled
+### Disabled
 <Preview>
     <button disabled>Disabled</button>
 </Preview>
