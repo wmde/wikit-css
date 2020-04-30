@@ -115,7 +115,7 @@
                         "value": "{color.base.100.value}"
                     },
                     "active": {
-                        "value": "{color.base.70.value}"
+                        "value": "{color.base.80.value}"
                     },
                     "focus": {
                         "value": "{color.base.90.value}"
