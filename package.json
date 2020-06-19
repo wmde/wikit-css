@@ -7,14 +7,14 @@
   "main": "build/tokens/index.js",
   "unpkg": "build/wikit.min.css",
   "files": [
-    "build/*",
+    "dist/*",
     "src/**/*.less"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-s dev:tokens dev:storybook",
     "build": "run-s clean build:tokens build:styles build:storybook",
-    "clean": "rm -rf ./build ./docs",
+    "clean": "rm -rf ./dist ./docs",
     "publish": "run-s build publish:storybook",
     "dev:storybook": "start-storybook -p 6006",
     "dev:tokens": "npm run build:tokens -- --platform less-dev",
