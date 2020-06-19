@@ -1,34 +1,5 @@
 {
-    "width-breakpoint":{
-        "mobile":{
-            "value":"320px"
-        },
-        "tablet":{
-            "value":"720px"
-        },
-        "desktop":{
-            "value":"1000px"
-        },
-        "desktop-wide":{
-            "value":"1200px"
-        },
-        "desktop-extrawide":{
-            "value":"2000px"
-        }
-    },
-
     "font": {
-        "family": {
-            "sans": {
-                "value": "-apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif"
-            },
-            "serif": {
-                "value": "'Linux Libertine', 'Georgia', 'Times', serif"
-            },
-            "monospace": {
-                "value": "'Menlo', 'Consolas', 'Liberation Mono', 'Courier New', monospace"
-            }
-        },
         "weight": {
             "regular": {
                 "value": "400"
@@ -52,7 +23,7 @@
     "color": {
         "base": {
             "0": {
-                "value": "#000"
+                "value": "{wmui.color.base0.value}"
             },
             "10": {
                 "value": "#202122"
@@ -114,7 +85,6 @@
                     "value": "#fef6e7"
                 }
             },
-            
             "green": {
                 "30": {
                     "value": "#14866d"
@@ -275,6 +245,6 @@
         },
         "not-allowed":{
             "value": "not-allowed"
-        } 
+        }
     }
 }
