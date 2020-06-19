@@ -7,14 +7,14 @@
   "main": "build/tokens/index.js",
   "unpkg": "build/wikit.min.css",
   "files": [
-    "build/*",
+    "dist/*",
     "src/**/*.less"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-s dev:tokens dev:storybook",
     "build": "run-s clean build:tokens build:styles build:storybook",
-    "clean": "rm -rf ./build ./docs",
+    "clean": "rm -rf ./dist ./docs",
     "publish": "run-s build publish:storybook",
     "dev:storybook": "start-storybook -p 6006",
     "dev:tokens": "npm run build:tokens -- --platform less-dev",
@@ -22,8 +22,8 @@
     "build:styles": "run-s pre:styles post:styles",
     "build:tokens": "style-dictionary build -c ./.style-dictionary/config.json",
     "clean:tokens": "style-dictionary clean -c ./.style-dictionary/config.json",
-    "pre:styles": "lessc ./src/main.less ./build/wikit.css",
-    "post:styles": "postcss build/wikit.css -o build/wikit.min.css",
+    "pre:styles": "lessc ./src/main.less ./dist/wikit.css",
+    "post:styles": "postcss dist/wikit.css -o dist/wikit.min.css",
     "publish:storybook": "gh-pages -d docs"
   },
   "repository": {
