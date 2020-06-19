@@ -52,7 +52,7 @@
     "color": {
         "base": {
             "0": {
-                "value": "#000"
+                "value": "{wmf-wmui-color-base0.value}"
             },
             "10": {
                 "value": "#202122"
