@@ -3,6 +3,7 @@ docs/
 src/tokens/
 .DS_Store
 
+.idea/
 .vscode/
 
 # Logs
