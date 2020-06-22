@@ -1,8 +1,29 @@
 import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import * as stories from './colors.stories.js';
 
-<Meta title="Visual guide|Colors"/>
+<Meta title="Visual guide|WMUI Colors"/>
 
-<Story name="Default">
-    {stories.defaultColors()}
+## Color base
+<Story name="Colors Base">
+    {stories.wmuiColorBase()}
+</Story>
+
+## Color accent
+<Story name="Colors Accent">
+    {stories.wmuiColorAccent()}
+</Story>
+
+## Color utility
+<Story name="Colors Utility">
+    {stories.wmuiColorUtility()}
+</Story>
+
+## Aliases / Background
+<Story name="Aliases / Background">
+    {stories.backgroundColors()}
+</Story>
+
+## Aliases / Border
+<Story name="Aliases / Border">
+    {stories.borderColors()}
 </Story>
