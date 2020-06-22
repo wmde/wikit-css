@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+    node:
+        build:
+            context: ./
+            dockerfile: ./Dockerfile
+        image: wmde/wikit-css
+        volumes:
+            - '~/.npm:/.npm'
+            - './:/app'
+        working_dir: /app
+
+    storybook:
+        extends:
+            service: node
+        ports:
+            - '${STORYBOOK_PORT}:${STORYBOOK_PORT}'
+        command: 'npm run dev:storybook -- -p ${STORYBOOK_PORT} --ci'
