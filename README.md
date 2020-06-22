@@ -56,6 +56,14 @@ https://unpkg.com/@itamar.wmde/wikit-css/build/tokens/variables.css
 
 ## Local Development
 
+### Project setup
+```
+# ensure the node user uses your user id, so you own generated files
+docker-compose build --build-arg UID=$(id -u) --build-arg GID=$(id -g) node
+docker-compose run --rm node npm install
+docker-compose run --rm node npm run prepare
+```
+
 1. Clone this repository
 
     ```bash
