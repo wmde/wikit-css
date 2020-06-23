@@ -158,10 +158,10 @@
         },
         "opacity": {
             "base": {
-                "value": "1"
+                "value": "{wmf-opacity-base.value}"
             },
             "disabled": {
-                "value": "0.51"
+                "value": "{wmf-opacity-base--disabled.value}"
             }
         }
     },
