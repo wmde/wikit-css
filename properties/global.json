@@ -252,16 +252,10 @@
     "transition": {
         "duration": {
             "fast": {
-                "value": "100ms"
+                "value": "{wmf-transition-duration-base.value}"
             },
             "medium": {
-                "value": "250ms"
-            },
-            "slower": {
-                "value": "300ms"
-            },
-            "slowest": {
-                "value": "400ms"
+                "value": "{wmf-transition-duration-medium.value}"
             }
         },
         "property": {
