@@ -41,6 +41,14 @@
         "destination": "_variables.less",
         "format": "less/variables"
       }]
+    },
+    "json": {
+      "transformGroup": "web",
+      "buildPath": "dist/tokens/",
+      "files": [{
+        "destination": "index.json",
+        "format": "json"
+      }]
     }
   }
 }
