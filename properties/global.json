@@ -1,19 +1,19 @@
 {
     "width-breakpoint": {
         "mobile": {
-            "value": "320px"
+            "value": "{wmf-width-breakpoint-mobile.value}"
         },
         "tablet": {
-            "value": "720px"
+            "value": "{wmf-width-breakpoint-tablet.value}"
         },
         "desktop": {
-            "value": "1000px"
+            "value": "{wmf-width-breakpoint-desktop.value}"
         },
         "desktop-wide": {
-            "value": "1200px"
+            "value": "{wmf-width-breakpoint-desktop-wide.value}"
         },
         "desktop-extrawide": {
-            "value": "2000px"
+            "value": "{wmf-width-breakpoint-desktop-extrawide.value}"
         }
     },
     "font": {
