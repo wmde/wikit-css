@@ -309,5 +309,13 @@
         "not-allowed": {
             "value": "not-allowed"
         }
+    },
+    "z-index": {
+        "base":{
+            "value": "{wmf-z-index-base.value}"
+        },
+        "overlay":{
+            "value": "{wmf-z-index-overlay.value}"
+        }
     }
 }
