@@ -102,6 +102,9 @@
                 "value": "{wmf-wmui-color-accent90.value}"
             }
         },
+        "purple": {
+            "value": "#6b4ba1"
+        },
         "utility": {
             "red": {
                 "30": {
@@ -137,20 +140,28 @@
                 }
             }
         },
+        "modifier": {
+            "lighten": {
+                "base-10": {
+                    "value": "#404244"
+                },
+                "base-20": {
+                    "value": "#6c7378"
+                },
+                "accent-50": {
+                    "value": "#447ff5"
+                },
+                "red-50": {
+                    "value": "#ff4242"
+                }
+            }
+        },
         "opacity": {
             "base": {
                 "value": "1"
             },
             "disabled": {
                 "value": "0.51"
-            }
-        },
-        "interaction": {
-            "primary-hover": {
-                "value": "#447ff5"
-            },
-            "destructive-hover": {
-                "value": "#ff4242"
             }
         }
     },
