@@ -29,11 +29,21 @@
             }
         },
         "weight": {
+            "hairline": {
+                "value": "100",
+                "comment": "To be found in wmf-font-weight-hairline in a future wikimedia-ui-base version"
+            },
             "regular": {
-                "value": "400"
+                "value": "400",
+                "comment": "To be found in wmf-font-weight-regular in a future wikimedia-ui-base version"
+            },
+            "semi-bold": {
+                "value": "600",
+                "comment": "To be found in wmf-font-weight-semi-bold in a future wikimedia-ui-base version"
             },
             "bold": {
-                "value": "600"
+                "value": "700",
+                "comment": "To be found in wmf-font-weight-bold in a future wikimedia-ui-base version"
             }
         },
         "line-height": {
