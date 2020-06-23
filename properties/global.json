@@ -47,14 +47,17 @@
             }
         },
         "line-height": {
+            "none": {
+                "value": "{wmf-text-decoration-link--hover.value}"
+            },
             "small": {
-                "value": "1.25"
+                "value": "{wmf-line-height-heading.value}"
             },
             "medium": {
                 "value": "1.5"
             },
             "large": {
-                "value": "1.6"
+                "value": "{wmf-line-height-base.value}"
             }
         }
     },
