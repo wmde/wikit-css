@@ -44,11 +44,30 @@ const StyleDictionary = require( 'style-dictionary' ).extend( {
 		},
 		json: {
 			transformGroup: 'web',
+			transforms: [
+				'name/cti/kebab',
+				'attr/tokenList'
+			],
 			buildPath: 'dist/tokens/',
 			files: [{
 				destination: 'index.json',
 				format: 'json'
 			}]
+		}
+	}
+} );
+
+StyleDictionary.registerTransform( {
+	name: 'attr/tokenList',
+	type: 'attribute',
+	transformer: ( prop, options ) => {
+		const matchedVariables = prop.original.value.match( /{.+?}/g );
+		const removeCurlyBraces = s => s.substr( 1, s.length - 2 );
+		const removeVariableSuffix = s => s.substr( 0, s.length - '.value'.length )
+
+		return {
+			// in node >= 12: [...prop.original.value.matchAll(/\{\s*(.+?)\s*\}/g)].map(([fullMatch, groupMatch]) => groupMatch)
+			tokens: ( matchedVariables || [] ).map( match => removeVariableSuffix( removeCurlyBraces(match).trim() ) )
 		}
 	}
 } );
