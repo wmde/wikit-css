@@ -21,11 +21,20 @@
             "sans": {
                 "value": "{wmf-font-family-system-sans.value}"
             },
+            "sans-fallback": {
+                "value": "{wmf-font-family-sans--fallback.value}"
+            },
             "serif": {
                 "value": "{wmf-font-family-serif.value}"
             },
+            "serif-fallback": {
+                "value": "{wmf-font-family-serif--fallback.value}"
+            },
             "monospace": {
                 "value": "{wmf-font-family-monospace.value}"
+            },
+            "monospace-fallback": {
+                "value": "{wmf-font-family-monospace--fallback.value}"
             }
         },
         "weight": {
