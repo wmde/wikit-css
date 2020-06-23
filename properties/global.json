@@ -283,7 +283,7 @@
     "border": {
         "style": {
             "base": {
-                "value": "solid"
+                "value": "{wmf-border-style-base.value}"
             }
         }
     },
