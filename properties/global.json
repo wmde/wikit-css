@@ -19,13 +19,13 @@
     "font": {
         "family": {
             "sans": {
-                "value": "-apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif"
+                "value": "{wmf-font-family-system-sans.value}"
             },
             "serif": {
-                "value": "'Linux Libertine', 'Georgia', 'Times', serif"
+                "value": "{wmf-font-family-serif.value}"
             },
             "monospace": {
-                "value": "'Menlo', 'Consolas', 'Liberation Mono', 'Courier New', monospace"
+                "value": "{wmf-font-family-monospace.value}"
             }
         },
         "weight": {
