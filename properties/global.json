@@ -1,22 +1,21 @@
 {
-    "width-breakpoint":{
-        "mobile":{
-            "value":"320px"
+    "width-breakpoint": {
+        "mobile": {
+            "value": "320px"
         },
-        "tablet":{
-            "value":"720px"
+        "tablet": {
+            "value": "720px"
         },
-        "desktop":{
-            "value":"1000px"
+        "desktop": {
+            "value": "1000px"
         },
-        "desktop-wide":{
-            "value":"1200px"
+        "desktop-wide": {
+            "value": "1200px"
         },
-        "desktop-extrawide":{
-            "value":"2000px"
+        "desktop-extrawide": {
+            "value": "2000px"
         }
     },
-
     "font": {
         "family": {
             "sans": {
@@ -102,7 +101,6 @@
                     "value": "#fee7e6"
                 }
             },
-
             "yellow": {
                 "30": {
                     "value": "#ac6600"
@@ -114,7 +112,6 @@
                     "value": "#fef6e7"
                 }
             },
-            
             "green": {
                 "30": {
                     "value": "#14866d"
@@ -127,16 +124,14 @@
                 }
             }
         },
-
         "opacity": {
             "base": {
                 "value": "1"
-                },
-                "disabled":{
-                    "value": "0.51"
-                }
+            },
+            "disabled": {
+                "value": "0.51"
+            }
         },
-
         "interaction": {
             "primary-hover": {
                 "value": "#447ff5"
@@ -216,7 +211,6 @@
             }
         }
     },
-
     "transition": {
         "duration": {
             "fast": {
@@ -233,13 +227,13 @@
             }
         },
         "property": {
-            "background-color":{
+            "background-color": {
                 "value": "background-color"
             },
-            "border-color":{
+            "border-color": {
                 "value": "border-color"
             },
-            "box-shadow":{
+            "box-shadow": {
                 "value": "box-shadow"
             }
         }
@@ -254,27 +248,25 @@
             }
         }
     },
-
-    "border":{
-        "style":{
-            "base":{
+    "border": {
+        "style": {
+            "base": {
                 "value": "solid"
+            }
         }
-    }
-},
-
+    },
     "cursor": {
-        "default":{
+        "default": {
             "value": "default"
         },
-        "grab":{
+        "grab": {
             "value": "grab"
         },
-        "pointer":{
+        "pointer": {
             "value": "pointer"
         },
-        "not-allowed":{
+        "not-allowed": {
             "value": "not-allowed"
-        } 
+        }
     }
 }

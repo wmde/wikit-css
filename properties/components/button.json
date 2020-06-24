@@ -68,33 +68,30 @@
                     "value": "{border.width.thin.value}"
                 }
             },
-            "style":{
-                "value":"{cta.border.style.value}"
-                }
+            "style": {
+                "value": "{cta.border.style.value}"
+            }
         },
-
-        "cursor":{
-            "hover":{
-                "enabled":{
-                    "value":"{cta.cursor.hover.enabled.value}"
+        "cursor": {
+            "hover": {
+                "enabled": {
+                    "value": "{cta.cursor.hover.enabled.value}"
                 },
-                "disabled":{
-                    "value":"{cta.cursor.hover.disabled.value}"
+                "disabled": {
+                    "value": "{cta.cursor.hover.disabled.value}"
                 }
             }
         },
-
-        "transition":{
-            "hover":{
-                "property":{
-                    "value":"{cta.transition.hover.property.value}"
+        "transition": {
+            "hover": {
+                "property": {
+                    "value": "{cta.transition.hover.property.value}"
                 },
-                "duration":{
-                    "value":"{cta.transition.hover.duration.value}"
+                "duration": {
+                    "value": "{cta.transition.hover.duration.value}"
                 }
             }
         },
-
         "neutral": {
             "text": {
                 "color": {

@@ -154,17 +154,16 @@
         "color": {
             "base": {
                 "value": "{color.base.100.value}"
-                },
+            },
             "hover": {
-                    "value": "{color.base.80.value}"
-                },
+                "value": "{color.base.80.value}"
+            },
             "focus": {
-                    "value": "{color.base.100.value}"
-                },
+                "value": "{color.base.100.value}"
+            },
             "disabled": {
-                    "value": "{color.base.80.value}"
-                },
-
+                "value": "{color.base.80.value}"
+            },
             "framed": {
                 "base": {
                     "value": "{color.base.90.value}"
@@ -178,20 +177,19 @@
                 "disabled": {
                     "value": "{color.base.80.value}"
                 },
-                "error":{
+                "error": {
                     "value": "{color.utility.red.90.value}"
                 },
-                "warning":{
+                "warning": {
                     "value": "{color.utility.yellow.90.value}"
                 },
-                "success":{
+                "success": {
                     "value": "{color.utility.green.90.value}"
                 },
-                "notice":{
+                "notice": {
                     "value": "{color.base.80.value}"
                 }
             },
-
             "filled": {
                 "disabled": {
                     "value": "{color.base.70.value}"
@@ -199,7 +197,6 @@
             }
         }
     },
-
     "border": {
         "color": {
             "base": {
@@ -217,17 +214,17 @@
             "disabled": {
                 "value": "{color.base.70.value}"
             },
-            "error":{
-                "value":"{color.utility.red.50.value}"
+            "error": {
+                "value": "{color.utility.red.50.value}"
             },
-            "warning":{
-                "value":"{color.utility.yellow.50.value}"
+            "warning": {
+                "value": "{color.utility.yellow.50.value}"
             },
-            "success":{
-                "value":"{color.utility.green.50.value}"
+            "success": {
+                "value": "{color.utility.green.50.value}"
             },
-            "notice":{
-                "value":"{color.base.70.value}"
+            "notice": {
+                "value": "{color.base.70.value}"
             }
         },
         "radius": {
@@ -250,7 +247,6 @@
             }
         }
     },
-
     "cta": {
         "text": {
             "line-height": {
@@ -303,9 +299,9 @@
                     "value": "{border.color.disabled.value}"
                 }
             },
-            "style":{
-                "value":"{border.style.base.value}"
-                }
+            "style": {
+                "value": "{border.style.base.value}"
+            }
         },
         "box-shadow": {
             "inset": {
@@ -327,23 +323,23 @@
                 }
             }
         },
-        "cursor":{
-            "hover":{
-                "enabled":{
-                    "value":"{cursor.pointer.value}"
+        "cursor": {
+            "hover": {
+                "enabled": {
+                    "value": "{cursor.pointer.value}"
                 },
-                "disabled":{
-                    "value":"{cursor.default.value}"
+                "disabled": {
+                    "value": "{cursor.default.value}"
                 }
             }
         },
-        "transition":{
-            "hover":{
-                "property":{
-                    "value":"{transition.property.background-color.value}, {transition.property.border-color.value}, {transition.property.box-shadow.value}"
+        "transition": {
+            "hover": {
+                "property": {
+                    "value": "{transition.property.background-color.value}, {transition.property.border-color.value}, {transition.property.box-shadow.value}"
                 },
                 "duration": {
-                    "value":"{transition.duration.fast.value}"
+                    "value": "{transition.duration.fast.value}"
                 }
             }
         }
