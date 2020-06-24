@@ -1,3 +1,5 @@
+const { inheritedVariablePrefix } = require( '../build/wikimedia-ui-base/config' );
+
 const StyleDictionary = require( 'style-dictionary' ).extend( {
 	include: ['node_modules/wikimedia-ui-base/tokens.json'],
 	source: ['properties/**/*.json'],
@@ -7,7 +9,8 @@ const StyleDictionary = require( 'style-dictionary' ).extend( {
 			buildPath: 'dist/tokens/',
 			files: [{
 				destination: '_variables.scss',
-				format: 'scss/variables'
+				format: 'scss/variables',
+				filter: 'removePrefixedVars'
 			}]
 		},
 		css: {
@@ -15,7 +18,8 @@ const StyleDictionary = require( 'style-dictionary' ).extend( {
 			buildPath: 'dist/tokens/',
 			files: [{
 				destination: 'variables.css',
-				format: 'css/variables'
+				format: 'css/variables',
+				filter: 'removePrefixedVars'
 			}]
 		},
 		less: {
@@ -23,7 +27,8 @@ const StyleDictionary = require( 'style-dictionary' ).extend( {
 			buildPath: 'dist/tokens/',
 			files: [{
 				destination: '_variables.less',
-				format: 'less/variables'
+				format: 'less/variables',
+				filter: 'removePrefixedVars'
 			}]
 		},
 		js: {
@@ -31,7 +36,8 @@ const StyleDictionary = require( 'style-dictionary' ).extend( {
 			buildPath: 'dist/tokens/',
 			files: [{
 				destination: 'index.js',
-				format: 'javascript/es6'
+				format: 'javascript/es6',
+				filter: 'removePrefixedVars'
 			}]
 		},
 		'less-dev': {
@@ -39,7 +45,8 @@ const StyleDictionary = require( 'style-dictionary' ).extend( {
 			buildPath: 'src/tokens/',
 			files: [{
 				destination: '_variables.less',
-				format: 'less/variables'
+				format: 'less/variables',
+				filter: 'removePrefixedVars'
 			}]
 		},
 		json: {
@@ -51,7 +58,8 @@ const StyleDictionary = require( 'style-dictionary' ).extend( {
 			buildPath: 'dist/tokens/',
 			files: [{
 				destination: 'index.json',
-				format: 'json'
+				format: 'json',
+				filter: 'removePrefixedVars'
 			}]
 		}
 	}
@@ -71,5 +79,10 @@ StyleDictionary.registerTransform( {
 		}
 	}
 } );
+
+StyleDictionary.registerFilter({
+	name: 'removePrefixedVars',
+	matcher: ( prop ) => !prop.name.startsWith( inheritedVariablePrefix )
+});
 
 StyleDictionary.buildAllPlatforms();
