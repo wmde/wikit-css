@@ -1,3 +1,5 @@
+This was a prototype built in early 2020. The actual Design System implementation is developed in [wmde/wikit](https://github.com/wmde/wikit) repository.
+
 # WiKit CSS
 
 **Big Bad Disclaimer:** This code is **only a prototype** and by no means meant to be used in anything.
